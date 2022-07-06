@@ -9,7 +9,7 @@ input[type="checkbox"] {
 
 body {
   margin: 0;
-  font-family: Quicksand light;
+  font-family: Quicksand;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #171717;
@@ -19,4 +19,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #faf8f8;
+  border-radius: 10px;
 }

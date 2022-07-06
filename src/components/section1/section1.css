@@ -23,16 +23,11 @@
   border-radius: 10px;
   cursor: pointer;
   margin-top: 30px;
+  outline: none;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-}
-
-.section1_btn:hover {
-  background-color: #faf8f8;
-  color: #171717;
-  font-weight: bold;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -44,5 +39,13 @@
   .section1_p1,
   .section1_p2 {
     text-align: center;
+  }
+}
+
+@media (hover: hover) {
+  .section1_btn:hover {
+    background-color: #faf8f8;
+    color: #171717;
+    font-weight: bold;
   }
 }
