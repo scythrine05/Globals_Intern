@@ -1,61 +1,28 @@
 .animation_container {
   position: relative;
 }
-.animation_container::after {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 5px;
-  height: 5px;
-  content: "";
-  background-color: #f0f;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-}
 .animation_circle {
   position: absolute;
   height: 50em;
   top: 20em;
-  right: -30em;
-}
-
-.animation_icon {
-  height: 5em;
-  background-color: #171717;
-  padding: 10px;
-  border-radius: 50%;
-  position: absolute;
-  cursor: pointer;
-}
-
-.animation_c1 {
-  right: 2em;
-  top: 19em;
-}
-.animation_c2 {
-  right: 14em;
-  top: 28em;
-}
-.animation_c3 {
-  right: 17em;
-  top: 42em;
-}
-.animation_c4 {
-  right: 13em;
-  top: 56em;
-}
-.animation_c5 {
-  right: 2em;
-  top: 65em;
-}
-
-img:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  right: -45em;
+  animation-name: rotate;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 @media only screen and (max-width: 1023px) {
   .animation_container {
     display: none;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

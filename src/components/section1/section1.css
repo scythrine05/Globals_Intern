@@ -40,9 +40,6 @@
     align-items: center;
     padding: 10em 0;
   }
-}
-
-@media only screen and (max-width: 767px) {
   .section1_h1,
   .section1_p1,
   .section1_p2 {
