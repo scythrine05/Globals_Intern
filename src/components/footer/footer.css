@@ -10,7 +10,7 @@
   justify-content: space-around;
 }
 
-.footer_h3 {
+.footer_content_h3 {
   border-bottom: 1px solid #faf8f8;
 }
 
@@ -70,7 +70,7 @@
   .footer_container_sub {
     flex-direction: column;
   }
-  .footer_h3 {
+  .footer_content_h3 {
     border: none;
   }
   .footer_content_each {

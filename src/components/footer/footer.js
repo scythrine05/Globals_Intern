@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="footer_container_sub">
         <div className="footer_content_each">
           <div>
-            <h3 style={{ width: 50 }} className="footer_h3">
+            <h3 style={{ width: 50 }} className="footer_content_h3">
               ABOUT
             </h3>
           </div>
@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
         <div className="footer_content_each">
           <div>
-            <h3 className="footer_h3">CONTACT US</h3>
+            <h3 className="footer_content_h3">CONTACT US</h3>
           </div>
           <div>
             <div>
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
         <div className="footer_content_each">
           <div>
-            <h3 className="footer_h3">SOCIAL</h3>
+            <h3 className="footer_content_h3">SOCIAL</h3>
           </div>
           <div className="footer_content_icons">
             <div className="footer_content_icons_sub">
