@@ -220,3 +220,13 @@ input[type="checkbox"] {
   text-align: center;
   font-size: 12px;
 }
+
+.form_container_modal {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.form_text_modal {
+  width: 100%;
+}
